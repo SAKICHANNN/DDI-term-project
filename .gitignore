@@ -1,5 +1,4 @@
 __pycache__/
 *.npz
-*.npy
-drug_smiles.json
-*.json
+X_train.npy
+X_test.npy
