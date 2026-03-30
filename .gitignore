@@ -1,4 +1,2 @@
 __pycache__/
 *.npz
-X_train.npy
-X_test.npy
