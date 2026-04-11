@@ -1,5 +1,2 @@
 __pycache__/
-*.npz
-*.npy
-*.pkl
-*.pth
+.venv/

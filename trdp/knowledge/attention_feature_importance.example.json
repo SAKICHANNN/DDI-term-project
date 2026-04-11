@@ -1,0 +1,9 @@
+{
+  "top_features": [
+    "DrugA_F81",
+    "DrugA_F106",
+    "DrugB_F95",
+    "DrugB_F157"
+  ],
+  "note": "Optional file. If provided as attention_feature_importance.json, mechanism_hypothesis.py will add third-source consistency checks."
+}
