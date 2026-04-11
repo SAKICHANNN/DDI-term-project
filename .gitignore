@@ -2,3 +2,6 @@ __pycache__/
 .venv/
 venv/
 env/
+
+# Model pickles exceed GitHub's 100MB blob limit; regenerate via pipelines.
+*.pkl
