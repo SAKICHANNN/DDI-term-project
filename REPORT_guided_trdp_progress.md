@@ -14,6 +14,15 @@ This report summarizes the current implementation status of the two-stage guided
 
 ---
 
+## Repository policy (GitHub)
+
+To keep pushes reliable under GitHub limits:
+
+- `*.pkl` sklearn model dumps are **not tracked** (each guided-RF pickle was ~270MB, above the 100MB blob limit). Regenerate models by running `pipelines/experiments/guided_trdp/run_guided_trdp_experiment.py` locally; metrics remain in `artifacts/explanations/**` as CSV/JSON/Markdown.
+- `*.npz` and `*.npy` are stored with **Git LFS** (`.gitattributes`) so large processed arrays stay out of normal Git packs.
+
+---
+
 ## What has been implemented
 
 ### 1) Project structure refactor
